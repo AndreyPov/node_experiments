@@ -7,3 +7,4 @@ myReadStream.on('data', function(chunk){
   console.log('new chunk received');
   myWriteStream.write(chunk);
 });
+//myReadStrem.pipe(myWriteStream); //also works

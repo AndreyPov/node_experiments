@@ -1,0 +1,22 @@
+{
+  "name": "node_experiments",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "fileSyst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyPov/node_experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyPov/node_experiments/issues"
+  },
+  "homepage": "https://github.com/AndreyPov/node_experiments#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

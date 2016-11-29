@@ -6,6 +6,15 @@
   <style>body{background: skyblue;}</style>
 </head>
 <body>
-  <h1>Welcome to the most awesome site in the web, <%= person%></h1>
+  <h1>Welcome to the most awesome site in the web, <%= person%>. </br>
+    Your hobbie "<%= data.hobbie[0] %>" is really impressive!</h1>
+  <h2>Due to you age that is about <%= data.age %> you will surely succeed!</h2>
+  </br>
+  <h2> But you have too many hobbies:</h2>
+  <ul>
+    <% data.hobbie.forEach(function(item){ %>
+      <li><%= item %></li>
+    <% }); %>
+  </ul>
 </body>
 </html>
